@@ -1,0 +1,11 @@
+1.¿Por qué un lenguaje de programación sólo puede utilizarse en algunos sistemas operativos y en otros no?. 
+Un lenguaje de programación puede ser compatible o no con ciertos sistemas operativos debido a diferencias fundamentales en la forma en que los sistemas operativos gestionan recursos y proporcionan acceso a funciones del sistema. Aquí hay algunas razones clave: API y bibliotecas específicas,Arquitectura de la CPU,Compiladores e intérpretes:
+
+2.¿Qué tipo de máquina virtual soporta virtualBox?. 
+VirtualBox es un hipervisor de tipo 2, lo que significa que funciona como una aplicación en un sistema operativo anfitrión existente. Soporta una amplia gama de sistemas operativos anfitriones, incluyendo Windows, Linux, macOS y otros. Puede ejecutar máquinas virtuales que funcionen con diversos sistemas operativos huéspedes, como Windows, Linux, macOS, y otros sistemas operativos x86.
+
+3.¿Qué función cumple el hypervisor en la virtualización?
+Un hypervisor es un componente esencial en la virtualización. Su función principal es crear y gestionar máquinas virtuales (VM) en un servidor físico. Actúa como una capa de abstracción entre el hardware físico y las VM, permitiendo que múltiples VM compartan los recursos del hardware de manera segura y eficiente. Controla el acceso a los recursos físicos, asigna recursos a las VM y garantiza su aislamiento, lo que permite la ejecución de sistemas operativos diferentes en un mismo servidor físico.
+
+4. Si tengo más de una máquina virtual instalada, y una se rompe, ¿esto afecta a las demás? ¿por qué?
+ En general, una máquina virtual que se rompe o falla normalmente no debería afectar directamente a otras máquinas virtuales en el mismo entorno de virtualización. Esto se debe a que las VMs están aisladas unas de otras y no comparten su estado o recursos de manera directa. Sin embargo, hay situaciones en las que un problema en una máquina virtual podría afectar a otras, como una sobrecarga de recursos (por ejemplo, consumo excesivo de CPU, memoria o almacenamiento) que podría degradar el rendimiento de todas las VMs en el servidor físico.
